@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+        @import url('./css/app.css');
+        @import url('./css/boot.css');
+        @import url('./css/animation.css');
+    </style>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+    <script src="./javascript/bundal.js"></script>
+    <script src="./javascript/lab/jq.js"></script>
+    <script src="./javascript/lab/bootslab.js"></script>
+    <script src="./javascript/script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid g-0">
+        <div class="row">
+
+      <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img src="https://i.gifer.com/origin/9f/9f39f1b40eed27772e3128a5055a8177_w200.gif" width="80"
+                        alt="">
+                    <a class="navbar-brand" href="#" style="position: absolute;
+                        left: 119px;
+                    ">Global warming</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    
+        <div class="container-fluid">
+            <div class="row g-0">
+              <!-- Carousel wrapper -->
+<div
+id="carouselVideoExample"
+class="carousel slide carousel-fade"
+data-mdb-ride="carousel"
+>
+<!-- Indicators -->
+<div class="carousel-indicators">
+  <button
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide-to="0"
+    class="active"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide-to="1"
+    aria-label="Slide 2"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide-to="2"
+    aria-label="Slide 3"
+  ></button>
+</div>
+
+<!-- Inner -->
+<div class="carousel-inner">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <video class="img-fluid" autoplay loop muted>
+      <source src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+    </video>
+    <div class="carousel-caption d-none d-md-block">
+      <h5>First slide label</h5>
+      <p>
+        Nulla vitae elit libero, a pharetra augue mollis interdum.
+      </p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <video class="img-fluid" autoplay loop muted>
+      <source src="https://mdbcdn.b-cdn.net/img/video/forest.mp4" type="video/mp4" />
+    </video>
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Second slide label</h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <video class="img-fluid" autoplay loop muted>
+      <source
+        src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Third slide label</h5>
+      <p>
+        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Inner -->
+
+<!-- Controls -->
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-mdb-target="#carouselVideoExample"
+  data-mdb-slide="prev"
+>
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-mdb-target="#carouselVideoExample"
+  data-mdb-slide="next"
+>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<!-- Carousel wrapper -->
+            <!-- <div class="row">
+                <div class="only" style="position: absolute; 
+                
+                 z-index: 4; color: hsla(0, 91%, 49%, 0.827); top: 2%; font-size: 50px; margin-left:500px;">
+                    <h1 class="some">we only have one planet</h1>
+
+
+                </div>
+            </div> -->
+        
+
+    </div>
+    </div>
+
+
+
+
+    <!-- home page end -->
+
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 my-3">
+                <div class="leaf my-4" style="font-size: 50px; z-index: 56;">
+                    <i class="fa fa-leaf" aria-hidden="true"><samp class="no">greenlife</samp></i>
+                    <h3 class="head mt-3" style="margin-left: 80px;">we save planet</h3>
+                    <h2 class="end mt-3">Global<br>warming</h2>
+                    <p class="para" style="font-size: 20px; margin-left:80px;">Founded in the
+                        year 2023, Save The Planet is a UAE based company <br>started by like-minded
+                        environmentalists. We believe it’s long overdue<br> that we start serving the Mother
+                        Nature<br></p>
+                    <p class="hide" style="font-size: 20px; margin-left:80px; margin-top: -10px;"> and
+                        making Earth a better place for us and our upcoming generations. We are providers
+                        of<br>
+                        sustainable, eco-friendly, biodegradable and <br>compostable products that are sourced
+                        from<br>
+                        all over the world.Save The Planet has sustainable essentials <br>curated by our expert
+                        team. We offer a<br> unique
+                        range of Plantable Stationery, Reusable Bags,</p>
+                    <button type="button" class="more">read more</button>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="https://th.bing.com/th/id/OIP.XlJ66uNyP45saYm6RiC0bgHaHa?pid=ImgDet&w=16
+                                                00&h=1600&c=7&dpr=1.3" alt="kl" class="pic"
+                    style="margin-left: -25px;">
+                <div class="col-1 d-flex ms-5">
+
+                    <i class=" a.value fa-brands fa-facebook-f bg-primary"></i>
+                    <i class="fa-brands fa-meta bg-primary"></i>
+                    <i class="fa-brands fa-square-instagram bg-primary"></i>
+                    <i class="fa-solid fa-message-dots bg-primary"></i>
+                    <i class="fa-brands fa-skype bg-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+    <div class="container g-0">
+        <div class="row">
+            <h1 class="war">understanding our planet to benefit humankind</h1>
+            <div class="container d-flex ms-5">
+                <div class="col-md-4">
+                    <div class="lines">
+                        <h1 class="ab">carbon dioxside</h1>
+                        <i class="fa-solid fa-arrow-up fa-flip"></i>
+                        <h1 class="num">420</h1>
+                        <h6 class="deg">parts per million[durrenl]</h6>
+                        <h5 class="sign">+</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lines">
+                        <h1 class="global">global temperature</h1>
+                        <i class="fa-solid fa-arrow-up fa-flip"></i>
+                        <h1 class="num">1.1</h1>
+                        <h6 class="deg">&deg c since preindustrial</h6>
+                        <h5 class="pls">+</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lines">
+                        <h1 class="art">arctic sea ice minimum extent</h1>
+                        <i class="fa-solid fa-arrow-down fa-flip"></i>
+                        <h1 class="num">12.6</h1>
+                        <h6 class="deg">percent per denote since 1979</h6>
+                        <h5 class="color">+</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- first -->
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-12 d-flex"> -->
+            <div class="col-md-4">
+                <div class="line">
+                    <h1 class="ice">ice sheet</h1>
+                    <div class="kyu">
+
+                        <i class="fa-solid fa-arrow-down fa-flip"></i>
+                    </div>
+                    <h1 class="numb">427</h1>
+                    <h6 class="sub">decrease per year</h6>
+                    <h5 class="and">+</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="line">
+                    <h1 class="sea">sea label</label></h1>
+                    <div class="or">
+                        <i class="fa-solid fa-arrow-up fa-flip"></i>
+                    </div>
+                    <h1 class="numb">4</h1>
+                    <h6 class="sub">increase since january 1999</h6>
+                    <h5 class="not">+</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="line">
+                    <h1 class="ocean">ocean warming</h1>
+                    <div class="or">
+                        <i class="fa-solid fa-arrow-up fa-flip"></i>
+                    </div>
+                    <h1 class="numb">435</h1>
+                    <h6 class="sub">ocean incre since since 2007</h6>
+                    <h5 class="nor">+</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 3rd page end -->
+    <div class="container-fluid g-0 mt-3  position-relative">
+        <div class="row ">
+            <div class="col-12">
+                <h1 class="busy">decline phase</h1>
+                <div class="container g-0 ">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-dark button-rounded" data-bs-toggle="collapse"
+                                    href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                    aria-controls="multiCollapseExample1"> first element</a>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                    aria-controls="multiCollapseExample2"> second element</button>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target=".multi-collapse" aria-expanded="false"
+                                    aria-controls="multiCollapseExample1 multiCollapseExample3"> all elements</button>
+                            </p>
+
+                            <div class="row d-flex mt-1">
+                                <div class="col-md-4">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class="card card-body">
+                                            <h1 class="van">1875</h1>
+                                            <h2 class="al">temperature - 1&deg inc.</h2>
+                                            <h2 class="mat">Co2 - 5% inc. </h3>
+                                                <h2 class="mat">No2 - 3% inc. </h2>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class="card card-body">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                        <div class="card card-body">
+                                            placeholder content for the second collapse component of this multi-collapse
+                                            example. This panel is hidden by default but revealed when the user
+                                            activates the relevant trigger.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+</body>
+
+
+</html>

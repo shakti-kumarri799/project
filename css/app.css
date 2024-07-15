@@ -1,0 +1,489 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.fa {
+    width: 55px;
+    background-color: rgb(187, 194, 187);
+    color: beige;
+    margin-left: 20px;
+
+
+}
+
+.no {
+    text-transform: uppercase;
+    margin-left: 30%;
+    color: rgb(160, 131, 77);
+    text-shadow: 2px 5px 0px black;
+    ;
+    text-decoration: underline dotted;
+
+
+
+}
+
+.head::first-line {
+    color: rgb(69, 124, 67);
+    font-size: 50px;
+    line-height: 30px;
+    text-shadow: 3px 6px spx rgb(17, 215, 40);
+
+}
+
+.end {
+    text-transform: uppercase;
+    color: rgb(165, 148, 115);
+    text-shadow: 2px 5px 0px black;
+    ;
+    margin-left: 80px;
+}
+
+.para {
+    color: rgb(195, 199, 134);
+    text-shadow: 2px 5px 0px black;
+    ;
+}
+
+.para::first-letter {
+    color: rgb(218, 185, 18);
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+    color: rgb(201, 201, 148);
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.more {
+    background-color: rgb(165, 203, 29);
+    margin-left: 70%;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+
+
+}
+
+.bg {
+    background-position: 0cqb;
+}
+
+.pic {
+    border-radius: 100%;
+    transition: scale(0.075, 0.82, 0.165, 1);
+    animation: zoomIn;
+    animation-duration: 5s;
+}
+
+.fa-brands {
+    width: 80px;
+    font-weight: bold;
+    transition-duration: 5ms;
+    line-height: 20px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 100%;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+.fa-brands:hover {
+    transform: scale(1.2, 1.1);
+    transition-duration: 5ms;
+    z-index: 2;
+}
+
+.fa-facebook-f {
+    color: azure;
+    width: 100%;
+
+}
+
+.fa-meta {
+    color: aqua;
+    width: 100%;
+}
+
+.fa-square-instagram {
+    color: rgb(224, 222, 209);
+    width: 100%;
+}
+
+.fa-skype {
+    color: rgb(128, 0, 85);
+    width: 100%;
+}
+
+.image {
+    border-radius: 100%;
+
+}
+
+.war {
+    margin-top: -520px;
+    top: 100%;
+    font-size: 50px;
+    font-family: math;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+
+
+}
+
+.vstack {
+    background-color: lightgoldenrodyellow;
+}
+
+.lines {
+    width: 400px;
+    height: 45px;
+    position: relative;
+}
+
+.lines::after,
+line::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    width: 350px;
+    top: 120px;
+}
+
+.lines::after {
+    left: 0;
+}
+
+.lines::before {
+    right: 0;
+}
+
+.fa-arrow-up {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 220px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.ab {
+    color: orange;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 140px;
+
+}
+
+.num {
+    font-size: 48px;
+    color: whitesmoke;
+    margin-top: 210px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 45px;
+    font-weight: bolder;
+}
+
+.deg {
+
+    color: whitesmoke;
+    margin-top: 199px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 140px;
+    font-weight: bold;
+}
+
+.sign {
+    color: orange;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.global {
+    color: rgb(255, 0, 170);
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 140px;
+
+}
+
+.pls {
+    color: rgb(255, 0, 200);
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.art {
+    color: silver;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.fa-arrow-down {
+    font-size: 30px;
+    color: lightsteelblue;
+    margin-top: 220px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.color {
+    color: lightsteelblue;
+    margin-top: 190px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.line {
+    width: 400px;
+    height: 45px;
+    position: relative;
+}
+
+.line::after,
+line::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    width: 350px;
+    top: 260px;
+}
+
+.line::after {
+    left: 0;
+}
+
+.line::before {
+    right: 0;
+}
+
+.ice {
+    color: rgb(14, 86, 150);
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 280px;
+
+}
+
+.kyu {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 140px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1px;
+    height: 40px;
+}
+
+.numb {
+    font-size: 48px;
+    color: whitesmoke;
+    margin-top: 340px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 45px;
+    font-weight: bolder;
+}
+
+.sub {
+    color: whitesmoke;
+    margin-top: 320px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 135px;
+    font-weight: bold;
+}
+
+.sea {
+    color: rgb(14, 150, 143);
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 280px;
+
+}
+
+.or {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 140px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1px;
+    height: 40px;
+}
+
+.ocean {
+    color: rgb(14, 150, 18);
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 280px;
+}
+
+.and {
+
+    color: rgb(14, 86, 150);
+    margin-top: 290px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.not {
+    color: rgb(14, 150, 143);
+    margin-top: 290px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nor {
+    color: rgb(14, 150, 18);
+    margin-top: 290px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 370px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.busy {
+    font-family: monospace;
+    font-size: 100px;
+    color: orangered;
+    text-shadow: 10px 15px 20px orange;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 400px;
+    text-align: center;
+    background-image: url("https://scitechdaily.com/images/Future-Earth-Global-Warming.jpg");
+    background: -moz-linear-gradient(red, green, blue);
+    -webkit-background-clip: busy;
+    background-position: center;
+    animation: ab 2s infinite;
+
+
+
+}
+
+@keyframes ab {
+    form {}
+
+    to {
+        background-position: bottom center;
+    }
+
+}
+
+.card-body {
+    background-image: url("https://i.pinimg.com/originals/c0/c9/3d/c0c93dec1700ae6d307ee1311fdba524.png") !important; 
+    color: red;
+    width: 400px;
+    height: 400px !important;
+    border-radius: 50% !important;
+    border: 2px solid black !important;
+    animation: xy 2s infinite;
+    padding: -10px, -10px, -10px, -10px !important;
+}
+
+@keyframes xy {
+    form {}
+
+    to {
+        background-position: bottom center;
+    }
+
+}
+
+.btn {
+
+    background: linear-gradient(black, rgb(222, 67, 157), rgb(49, 186, 83));
+    margin: 50px !important;
+    color: aliceblue !important;
+    text-align: center !important;
+    width: 400px !important;
+    height: 50px !important;
+    margin-left: -10px !important;
+    margin-top: -2px !important;
+
+}
+.van 
+{
+    color: #fff!important;
+    font-size: 50px!important;
+    margin-left: 130px!important;
+    text-decoration: underline whitesmoke!important;
+}
+.al
+{
+    color: orange!important;
+    font-size: 25px!important;
+    margin-left: 80px!important;
+
+}
+samp.al::before
+{
+    content: "";
+    text-decoration: circle red!important;
+    font-size: 100px!important;
+    border-radius: 50%!important;
+    
+}
+.mat
+{
+    color: #fff!important;
+    font-size: 50px!important;
+    margin-left: 130px!important;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/id/1413475411/photo/3d-render-of-conceptual-industrial-pollution-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=EQ7yjxurBbcyj45f7ibkMIaoR5E0EcEV7lkSw9lBsWE=');
+}
+
+
+
